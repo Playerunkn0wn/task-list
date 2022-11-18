@@ -3,19 +3,12 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
 
-td:hover {
+tr:hover {
   color: #fff;
   background: #b6b2b2;
-}
-td:focus {
-  background: #b9b3b3;
-  opacity: 40%;
+  border-radius: 2rem;
 }
 
-td:active {
-  color: #fff;
-  background: #a6a1a1;
-}
 
 body{
   font-family: helvetica neue lt,sans-serif;
@@ -23,7 +16,6 @@ body{
 
 .close{
   width: 1em;
-height: 1em;
-  border: 0px;
-
+  height: 1em;
+  border: 0;
 }

@@ -1,12 +1,12 @@
-<tr  class="d-lg-table-row" tabindex="1">
-  <td>
+<tr  class="d-lg-table-row">
+  <td >
     <input class="form-check-input"
            style="border-radius: 2rem"
            [disabled]="task.status != 1 "
            (click)="complete()"
            type="checkbox" [checked]="task.status != 1">
-  <td class="{{ (task.status == 2) ? 'deleted' : ''}}">{{task.name}}</td>
-  <td class="p-lg-1">
+  <td class="{{ (task.status == 2) ? 'deleted' : ''}}  text-wrap "  style=" overflow-wrap: anywhere;" >{{task.name}}</td>
+  <td  class="p-lg-1">
     <button class="btn btn-close" type="button" aria-label="Close" [disabled]="task.status == 2" (click)="delete()">
     </button>
   </td>
