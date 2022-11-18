@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+td:hover {
+  color: #fff;
+  background: #b6b2b2;
+}
+td:focus {
+  background: #b9b3b3;
+  opacity: 40%;
+}
+
+td:active {
+  color: #fff;
+  background: #a6a1a1;
+}
+
+body{
+  font-family: helvetica neue lt,sans-serif;
+}
+
+.close{
+  width: 1em;
+height: 1em;
+  border: 0px;
+
+}
